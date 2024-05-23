@@ -1,6 +1,6 @@
 terraform state list
 
-terraform state mv <resource_name>.<local_name> reource_name.new_local_name
+terraform state mv <resource_name>.<local_name> <reource_name>.<new_local_name>
 
 terraform plan # will not show any kind of message/output
 
