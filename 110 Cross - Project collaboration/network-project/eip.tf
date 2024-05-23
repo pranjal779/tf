@@ -1,5 +1,6 @@
 resource "aws_eip" "lb" {
   # vpc = true
+  domain = "vpc"
 }
 
 output "eip_addr" {
